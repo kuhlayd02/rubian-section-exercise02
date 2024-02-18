@@ -32,3 +32,52 @@
     width: 150px;
     height: 150px;
 }
+
+/*.profile{
+    padding: 5px;
+    width: 500px;
+    float: right;
+    margin-right: 55%;
+    margin-bottom: 25%;
+}
+
+
+
+.desc{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+    margin-right: 15%;
+    margin-left: 45%;
+    
+}*/
+
+.name{
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: #e07a5f;
+    text-align: center;
+}
+
+.featured {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.profile {
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    /* You might also want to add margin or padding if necessary */
+}
+
+.desc {
+    font-size: 20px;
+    text-align: center; /* Center text within the description */
+    padding: 0 20px; /* Add padding to the description if needed */
+    margin-right: 15%;
+    margin-left: 15%;
+}
