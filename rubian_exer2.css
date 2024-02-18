@@ -81,6 +81,7 @@
     padding: 10 30px; /* Add padding to the description if needed */
     margin-right: 15%;
     margin-left: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*#projects{
@@ -157,6 +158,7 @@
 
 .project-details {
     margin-bottom: var(--bottom-margin);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
 .project-deets {
@@ -227,3 +229,53 @@
 .header {
     color: #e07a5f
 }
+
+/*.footer{
+    
+    background-color: #e07a5f;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.footer .logo{
+    position: absolute; 
+    top: 370%; 
+    left: 30%; 
+    transform: translateX(-50%); /* Adjust to center the logo horizontally 
+    width: 150px;
+    height: 150px;
+}*/
+
+.footer {
+    background-color: #e07a5f;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10px;
+    font-weight: bold;
+    position: relative; /* Add relative positioning to the footer */
+}
+
+.footer .logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 50%; /* Align the logo vertically to the center */
+    left: 15%; /* Align the logo horizontally to the center */
+    transform: translate(-50%, -50%); /* Adjust to center the logo both vertically and horizontally */
+    width: 150px;
+    height: 150px;
+}
+
+
+    
+   
