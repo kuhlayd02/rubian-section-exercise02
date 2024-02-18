@@ -62,7 +62,7 @@
 }
 
 .featured {
-    padding: 25px;
+    padding: 10px;
     display: flex;
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
@@ -70,8 +70,8 @@
 }
 
 .profile {
-    width: 400px; /* Adjust width as needed */
-    height: 400px; /* Adjust height as needed */
+    width: 1000px; /* Adjust width as needed */
+    height: 1000px; /* Adjust height as needed */
     /* You might also want to add margin or padding if necessary */
 }
 
@@ -83,6 +83,8 @@
     margin-left: 15%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 
 /*#projects{
     background-color: #f9dcc4 ;
